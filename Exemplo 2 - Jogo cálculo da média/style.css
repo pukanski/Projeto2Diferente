@@ -1,0 +1,39 @@
+﻿body {
+  background-color: #f8f8f8;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container img {
+  width: 400px;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.Botoes {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.Botoes button {
+    width: 100%;
+    padding: 15px;
+    font-size: 1.1rem;
+    color: white;
+    background-color: #3498db;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.Botoes button:hover {
+    background-color: #2980b9;
+    transform: translateY(-2px);
+}
